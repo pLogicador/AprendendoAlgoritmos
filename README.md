@@ -44,4 +44,3 @@ Um algoritmo é considerado correto quando, para qualquer situação de entrada,
 O que são Estruturas de Dados: Estruturas de dados são maneiras de armazenar e organizar dados para facilitar o acesso e as modificações. Existem muitas estruturas diferentes, e cada uma é boa para certos tipos de tarefas. Não existe uma estrutura de dados que sirva para todos os propósitos. É importante conhecer as vantagens e desvantagens de várias estruturas de dados para escolher a melhor para uma tarefa específica.
 
 Algoritmos Eficientes: Além de escolher a estrutura de dados certa, é fundamental ter algoritmos eficientes. Algoritmos eficientes são aqueles que realizam tarefas rapidamente e com uso mínimo de recursos de computação, como processamento e memória.
-
