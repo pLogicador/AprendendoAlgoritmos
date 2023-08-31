@@ -1,5 +1,6 @@
 # Aprendendo Algoritmos: Uma Exploração Prática
 
+
 ### Introdução ao Repositório
 
 Este é o repositório "Aprendendo Algoritmos", um projeto nascido da paixão pela ciência dos algoritmos e inspirado por dois notáveis trabalhos: "Algoritmos: Teoria e Prática" de Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest e Clifford Stein, e "Cálculo" de James Stewart.
@@ -12,6 +13,8 @@ Com o tempo, ficou evidente que esses dois domínios, apesar de inicialmente dis
 
 ### Meu Propósito
 Dentro deste repositório, você encontrará uma coleção de algoritmos, cada um acompanhado por seu próprio script de código. Meu objetivo é tornar esses algoritmos acessíveis e práticos, revelando como podem ser aplicados em situações do mundo real, muitas vezes inspiradas pelo estudo do cálculo. Cada algoritmo é uma peça fundamental, e juntos, eles formam um mapa que une a teoria à prática.
+
+> *OBS*: O projeto ainda está em desenvolvimento ativo, e estarei adicionando mais recursos e conteúdo nos próximos dias e semanas.
 
 #
 
