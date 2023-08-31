@@ -16,10 +16,12 @@ Dentro deste repositório, você encontrará uma coleção de algoritmos, cada u
 
 <br><br>
 
+  
+<p align="center">
+  <b> O QUE SÃO ALGORITMOS ? </b>
+</p>
 
-## O que são Algoritmos?
-
-Um algoritmo é um conjunto organizado de passos que serve para resolver um problema computacional. Ele toma informações de entrada, que podem variar de caso para caso, e as processa de maneira previsível e precisa para produzir uma saída específica, que atende aos requisitos do problema.
+Um **algoritmo** é um conjunto organizado de passos que serve para resolver um problema computacional. Ele toma informações de entrada, que podem variar de caso para caso, e as processa de maneira previsível e precisa para produzir uma saída específica, que atende aos requisitos do problema.
 
 * Problema Computacional: Cada problema a ser resolvido é formulado em termos gerais, definindo a relação desejada entre entrada e saída.
 
@@ -29,17 +31,24 @@ Um algoritmo é um conjunto organizado de passos que serve para resolver um prob
 
 * Resultado Esperado: Independentemente das variações nas entradas, o algoritmo deve produzir uma saída correta e coerente com o que é esperado de acordo com as regras do problema.
 
+<br>
+<p align="center">
+  <b> IMPORTÂNCIA DA ORDENAÇÃO EM COMPUTAÇÃO: </b>
+</p>
 
-## Importância da Ordenação em Computação:
+A **ordenação** é uma etapa crucial em muitos programas de computador. Existem muitos algoritmos de ordenação excelentes disponíveis. A escolha do melhor algoritmo depende de vários fatores. Escolher o algoritmo de ordenação certo envolve considerar o tamanho dos dados, quão bagunçados eles estão, quais regras eles devem obedecer, as características do computador em que estão sendo executados e o tipo de armazenamento em uso. Cada situação pode exigir um algoritmo diferente para obter o melhor desempenho.
 
-A ordenação é uma etapa crucial em muitos programas de computador. Existem muitos algoritmos de ordenação excelentes disponíveis. A escolha do melhor algoritmo depende de vários fatores. Escolher o algoritmo de ordenação certo envolve considerar o tamanho dos dados, quão bagunçados eles estão, quais regras eles devem obedecer, as características do computador em que estão sendo executados e o tipo de armazenamento em uso. Cada situação pode exigir um algoritmo diferente para obter o melhor desempenho.
-
-## Corretude de Algoritmos
+<br>
+<p align="center">
+  <b> CORRETUDE DE ALGORITMOS </b>
+</p>
 
 Um algoritmo é considerado correto quando, para qualquer situação de entrada, ele produz a saída correta. Isso significa que ele resolve o problema da maneira esperada. A corretude de um algoritmo é fundamental. Algoritmos corretos garantem resultados confiáveis, enquanto algoritmos incorretos podem ser usados com cautela, desde que possamos lidar com seus erros de forma controlada.
 
-
-## Estruturas de dados: Eficiência
+<br>
+<p align="center">
+  <b> ESTRUTURA DE DADOS: EFICIÊNCIA </b>
+</p>
 
 O que são Estruturas de Dados: Estruturas de dados são maneiras de armazenar e organizar dados para facilitar o acesso e as modificações. Existem muitas estruturas diferentes, e cada uma é boa para certos tipos de tarefas. Não existe uma estrutura de dados que sirva para todos os propósitos. É importante conhecer as vantagens e desvantagens de várias estruturas de dados para escolher a melhor para uma tarefa específica.
 
