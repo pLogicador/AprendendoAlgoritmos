@@ -2,6 +2,9 @@
 
 Revisão de álgebra:
 
+
+
+// ------------------------------------------------------------------
 POTENCIAÇÃO
 1. Avalie cada expressão sem usar uma calculadora
    a) (-3)^4              b)-3^4              c) 3^-4
@@ -97,11 +100,11 @@ POTENCIAÇÃO
          R. 1/8
          
          
-         
+ // ------------------------------------------------------------------        
  2. Simplifique cada expressão. Escreva sua resposta sem expoentes negativos. 
- a) √200 - √32 
- b) (3a^3 * b^3) * (4ab^2)^2
- c) ((3x^3/2 * y^3)/x^2 * y^-1/2)^-2
+     a) √200 - √32 
+     b) (3a^3 * b^3) * (4ab^2)^2
+     c) ( (3x^(3/2) * y^3)/(x^2 * y^(-1/2)) )^(-2)
          
  
         Resolução passo a passo da letra a:
@@ -158,13 +161,237 @@ POTENCIAÇÃO
         fórmula: [ (a*b)^n = a^n * b^n ]
 
         Rc)
-          1. ((3x^3/2 * y^3)/x^2 * y^-1/2)^-2       =  ( 3 * x^3/2 - 2  * y^3 - (-1/2) )^-2
+          1. ((3x^3/2 * y^3)/ (x^2 * y^-1/2))^-2       =  ( 3 * x^3/2 - 2  * y^3 - (-1/2) )^-2
+
           2. ( 3 * x^3/2 - 2  * y^3 - (-1/2) )^-2   =  ( 3x^-1/2 * y^3 + 1/2 )^-2          (pois no x o exp 3/2 - 2 = 2*(-2) = -4 + 3 = -1)
+
           3. (3x^-1/2 * y^3 + 1/2)^2                =  ( 3x^-1/2 * y^7/2 )^-2              (pois no y o exp 3 + 1/2 = 2*3=6+1 = 7)
+
           4. ( 3x^-1/2 * y^7/2 )^-2                 =  3^-2 * (x^-1/2)^-2 * (y^7/2 )^-2  
+
           5. 3^-2 * (x^-1/2)^-2 * (y^7/2 )^-2       =  3^-2 * x * y^-7                     (pois no x o exp -1/2 * -2 = 1; pois no y o exp 7/2 * -2 = -7  )
+
           6. 3^-2 * x * y^-7                        =  1/3^2 * x * 1/3^7                   (pois invertemos a base)
+
           7. 1/3^2 * x * 1/3^7                      =  x/9y^7                              (pois 1 * x * 1 = x)
+
+
+// ------------------------------------------------------------------
+Distributiva
+3. Expanda e simplifique.
+    a) 3(x + 6) + 4(2x - 5)                  b) (x + 3)(4x - 5)
+    c) (√a + √b)(√a - √b)                    d) (2x + 3)^2
+    e) (x + 2)^3
+
+
+
+    Resolução passo a passo da letra a:
+
+    Ra)
+      1. 3(x + 6) + 4(2x - 5)       =       3x + 18 + 8x - 20          (pois 3*x= 3x; 3*6= 18; 4*2x= 8x; 4*5= 20 )
+
+      2. 3x + 18 + 8x - 20          =       11x - 2                    (pois 3x+8x = 11x; 18-20= -2  )
+
+      R. 11x - 2;
+
+
+
+    Resolução passo a passo da letra b:
+
+    Rb)
+      1. (x + 3)(4x - 5)            =       (4x^2) - 5x + 12x - 15          (pois  x*4x= (4x^2); x*(-5)= -5x; 3*4x= 12x; 3*(-5)= -15)
+
+      2. (4x^2) - 5x + 12x - 15     =       (4x^2) + 7x - 15                (pois -5x + 12x= 7x;) 
+
+      R. (4x^2) + 7x - 15;
+
+
+
+    Resolução passo a passo da letra c: 
+    
+    DICA: PRODUTO NOTÁVEL: para quando temos um produto de uma soma por uma diferença
+    fórumla: [ (x + y)(x - y) = x^2 - y^2  ]
+
+    Rc)
+      1. (√a + √b)(√a - √b)         =   a - b                  (pois a (√a^2) - (√b^2) = a )
+      R. a-b;
+
+
+
+    Resolução passo a passo da letra d:
+
+    DICA: PRODUTO NOTÁVEL (QUADRADO DA SOMA)
+    fórmula: [ (a + b)^2  = (a^2) + 2ab + b^2  ]        OBS: O quadrado da soma não é a soma dos quadrados. 
+                                                             Ou seja, (a + b)^2  !=  (a^2) + (b^2). Porém o
+                                                             quadrado do produto é o produto dos quadrados.
+                                                             Ou seja, (a * b)^2  =  (a^2) * (b^2).
+
+
+    Rd)
+      1. (2x + 3)^2                 =       ((2x)^2) + 2*2x*3 + 3^2
+
+      2. (2x^2) + 2*2*3 + 3^2       =       4x + 12x + 9
+
+      R. 4x + 12x + 9;
+
+
+
+    Resolução passo a passo da letra e:
+
+    DICA: PRODUTO NOTÁVEL
+
+    Re)
+      1. (x + 2)^3                                   =       (x^3) + (3x^2) * 2 + 3x * (2^2) + 2^3
+
+      2. (x^3) + (3x^2) * 2 + 3x * (2^2) + 2^3       =       (x^3) + (6x^2) * 12x + 8
+
+      R. (x^3) + (6x^2) * 12x + 8;
+
+
+// ------------------------------------------------------------------
+FATORAÇÃO(transformando em produto)
+4. Fatore cada expressão.
+a) (4x^2) - 25                          b) (2x^2) + 5x - 12
+c) (x^3) - (3x^2) - 4x + 12             d) (x^4) + 27x
+e) (3x^3/2) - (9x^1/2) + 6x^(-1/2)      f) (x^3)y - 4xy
+
+
+
+    
+    Resolução passo a passo da letra a:
+
+    DICA: PRODUTO NOTÁVEL 
+    fórmula: [ (a^2) - (b^2) = (a+b)*(a-b) ]
+
+    Ra)
+      1. (4x^2) - 25        =    (2x^2) - 5^2
+
+      2. (2x^2) - 5^2       =    (2x + 5)(2x - 5) 
+
+      R. (2x + 5)(2x - 5);
+
+
+
+    Resolução passo a passo da letra b:
+
+    Rb)
+      1. (2x^2) + 5x - 12           =       (2x^2) + 8x - 3x - 12
+
+      2. (2x^2) + 8x - 3x - 12      =       2x (x + 4) -3(x + 4)         (pois colocamos 2x (da primeira parcela) em evidência e calcula:
+                                                                         (2x^2) / 2x= x; 
+                                                                             8x / 2x= 4; Agora da segunda parcela:
+                                                                            -3x / -3= x; 
+                                                                            -3x / -12= 4                                                )
+
+      3. 2x (x + 4) -3(x + 4)       = (x + 4)(2x - 3 )                  (pois colocamos (x+4) em evidência e divide a primeira parcela toda por x+4= 2x;
+                                                                        logo depois dividimos a segunda parcela por x+4= -3                            )
+
+      R. (x + 4)(2x - 3 );
+
+
+
+
+    Resolução passo a passo da letra c:
+
+    DICA: PRODUTO NOTÁVEL
+    fórmula: [ (a^2) - (b^2) = (a+b)*(a-b) ]
+
+    Rc)
+      1. (x^3) - (3x^2) - 4x + 12       =       x^(2)(x - 3) -4(x - 3)            (pois colocamos o (x^2) em evidência pois é incomum e
+                                                                                  calculamos: (x^3) / (x^2)=x; 
+                                                                                              (3x^2) / (x^2)= 3; logo depois, 
+                                                                                  para obtermos outra parcela colocamos o -4 em evidência e
+                                                                                  calculamos: -4x / -4= x; 
+                                                                                               12 / -4= -3;                               )
+
+      2. x^(2)(x - 3) -4(x - 3)         =  (x - 3)( (x^2) - 4 )                   (pois colocamos (x-3) em evidência e calculamos a primeira e segunda parcela por (x-3)
+                                                                                   o que resulta= ( (x^2) - 4 );                                                       )
+
+      3. (x - 3)( (x^2) - 4 )           = (x - 3)(x + 2)(x - 2)                 (pois na segunda parcela(( (x^2) - 4 ) ) temos 
+                                                                                (x^2) - (2^2) e seguimos a dica para transformamos 
+                                                                                toda a equação                                  )
+
+      R. (x - 3)(x + 2)(x - 2)
+
+
+
+      Resolução passo a passo da letra d:
+
+      DICA: PRODUTO NOTÁVEL
+      fórmula: [  (a^3) + (b^3)  = (a + b)( (a^2) - ab + b^2 )  ]
+
+
+      Rd)
+        1. (x^4) + 27x              = x( (x^3) + 3^3 )                  (pois colocamos o x em evidência e calculamos: 
+                                                                        (x^4) / x= x^3;
+                                                                          27x / x= 27;
+                                                                           27 == 3^3                                 )
+
+        2.  x( (x^3) + 3^3 )        = x(x + 3) ( (x^2) - 3x + 9  )
+
+        R. x(x + 3) ( (x^2) - 3x + 9  );
+
+
+
+
+
+      Resolução passo a passo da letra e:
+
+
+      Re)
+        1. (3x^3/2) - (9x^1/2) + 6x^(-1/2)      = (3x^1/2) ( (x^2) - 3x + 2 )              (pois colocamos (3x^3/2) em evidência e calculamos: 
+                                                                                           (3x^3/2) / (3x^1/2) = x^(3/2 + 1/2) = 4^4/2 = x^2;
+                                                                                           logo depois calculamos: -(9x^1/2) / 3x^(-1/2) = -3x^1;
+                                                                                           logo depois calculamos: 6x^(-1/2) / 3x^(-1/2) = 2; )
+
+        2. (3x^1/2) ( (x^2) - 3x + 2 )          = (3x^1/2) ( (x^2) - x - 2x + 2 )           
+
+        3. (3x^1/2) ( (x^2) - x - 2x + 2 )      = (3x^1/2) [ x(x - 1) - 2 (x - 1) ]        (pois colocamos o x em evidência e calculamos:
+                                                                                           (x^2) / x= x; 
+                                                                                           x / x= -1
+                                                                                           ... e assim por diante                       )
+
+        4. (3x^1/2) (x - 1) (x - 2)                                                         (pois colocamos x -1 em evidência e calculamos:
+                                                                                            a primeira parcela dividido por x - 1= x;
+                                                                                            a segunda parcela dividido por x - 1= 2       )
+
+        R. (3x^1/2) (x - 1) (x - 2);
+
+
+
+
+      Resolução passo a passo da letra f:
+
+      DICA: PRODUTO NOTÁVEL
+      fórmula: [ (a^2) - (b^2) = (a+b)*(a-b) ]
+
+
+      Rf)
+        1. (x^3)y - 4xy         =  xy ((x^2) - 4)                                     (pois colocamos xy em evidência e calculamos:
+                                                                                      (x^3)y / xy= x^2;
+                                                                                         4xy / xy= 4                              )
+
+        2. xy ((x^2) - 4)       = xy ((x^2) - 2^2)
+
+        3. xy ((x^2) - 2^2)     = xy (x + 2)(x - 2)                                 (pois utiliza a regra do produto notável)
+
+
+        R. xy (x + 2)(x - 2);
+
+
+
+// ------------------------------------------------------------------
+S. Simplifique as expressões racionais.
+a) 
+
+
+
+
+
+
+
+
+
  */
 
 
