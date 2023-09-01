@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+*.sln
+*.vsidx
+*.filters
+*.vcxproj
+*.recipe
+*.pdb
+*.tlog
+*.ilk
+*.log
+*.user
+*.idb
+Calculo_JamesStewart/TesteA/TesteAlgebra/.vs/TesteAlgebra/v17/.suo
