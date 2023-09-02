@@ -515,7 +515,6 @@ c) ( (x^2) / (x^2) - 4 ) - ((x + 1) / x + 2 )       d) (y/x - x/y) / (1/y - 1/x)
        Resolução passo a passo da letra b:
 
 
-
        Rb)
          1. √4+h-2 / h                                          =          ( √4+h - 2 / h ) * ( √4+h + 2 / √4+h + 2  )   
 
@@ -579,14 +578,17 @@ a) (x^2) + x + 1            b) (2x^2) - 12x + 11
 
 
 
+
+
+// ------------------------------------------------------------------
 8. Resolva a equação. (Encontre apenas as soluções reais.)
-a)                      b)
+a) x + 5 = 14 - (1/2)x                       b) 2x /x + 1 = 2x - 1 / x
 
-c)                      d)
+c) x^(2) - x - 12 = 0                        d) 2x^(2) + 4x + 1 = 0
 
-e)                      f)
+e) x^(4) - 3x^(2) + 2 = 0                    f) 3 | x - 4 | = 10
 
-g)                      
+g) 2x(4 - x)^(-1/2) - 3√4 - x = 0                      
 
 
 
@@ -594,9 +596,183 @@ g)
 
        Resolução passo a passo da letra a:
 
-       Ra)
-         1. 
+       DICA: Ao tirar o mínimo de partes da equação ela ainda se mantém na equação, caso tire o mínimo de toda a equação então você pode cortá-la
 
+       Ra)
+         1. x + 5 = 14 - (1/2)x             =           x + 5 = 14 - x/2
+
+         2. x + 5 = 14 - x/2                =          2x + 10 = 28 - x   (pois tira o mínimo de 2 dividindo - o em todos os denominadores da equação multiplicando com o numerador)
+
+         3.  2x + 10 = 28 - x               =           2x + x = 28 - 10  (pois separa cada membro em seu devido lugar)
+
+         4. 2x + x = 28 - 10                =           3x = 18
+
+         5. 3x = 18                         =           x = 18/3      =      6
+
+         R. s = { 6 };
+
+
+
+
+       Resolução passo a passo da letra b:
+
+       DICA: Apenas em uma igualdade de duas frações
+       fórmula: [  a/b = c/d <--> ad = bc  ]
+
+       Rb)
+         1. 2x /x+1 = 2x-1 / x              =        2x^(2)  =  (x+1) (2x-1)                (pois 2x * x= 2x^2; )        
+
+         2. 2x^(2)  =  (x+1) (2x-1)         =        2x^(2)  =  2x^(2) - x + 2x - 1         (pois foi realizado a distributiva)
+
+         3. 2x^(2)  =  2x^(2) - x + 2x - 1  =       0 = x - 1 
+
+         4. 0 = x - 1                       =       1 = x   || x = 1
+
+         R. s = { 1 };
+
+
+
+
+
+
+       Resolução passo a passo da letra c:
+
+       DICA: Para equações de 2Grau utilize a fórmula de baskhara
+       fórmula: [  x= ( -b(+/-) √(b^2) - 4ac ) / 2a  ]
+
+       Rc)
+         1. x^(2) - x - 12 = 0              =    x = (1 (+/-) 7) / 2   (após a utilização da fórmula)       
+
+         2. x = (1 (+/-) 7) / 2             =    x1 = 4 && x2 = -3 
+
+         R. S = {-3, 4};
+
+
+
+
+       Resolução passo a passo da letra d:
+
+       DICA: Aplica-se a fórmula de baskhara
+       DICA: fatore números que não possuem um resultado exato para a raíz quadrada
+
+       Rd)
+         1. 2x^(2) + 4x + 1 = 0             =       x = ( - 4 (+/-) √8 ) / 4      
+
+         2. x = ( - 4 (+/-) √8 ) / 4        =       x = ( - 4 (+/-) 2√2 ) / 4       (pois a raíz do 8 foi fatorada em 2√2 )
+
+         3. x = ( - 4 (+/-) 2√2 ) / 4       =       x = ( -4/4 ) +/- ( 2√2/4 )
+
+         4. x = ( -4/4 ) +/- ( 2√2/4 )      =       x = -1 (+/-) 1/2(√2)
+
+         R.  x = -1 (+/-) 1/2(√2)
+
+
+
+
+
+       Resolução passo a passo da letra e:
+
+       DICA1: ax^(4) + bx^(2) + c = 0  == Equação bi quadrada
+       Se [x^(2) = y] = x^(4) = (x^2)^(2) = y^2
+
+       DICA2: após tranformar em uma equação do 2Grau utilize a fórmula de baskhara ou 
+       siga o método da soma e produto (apenas no requisito de a = 1)
+
+       Re)
+         1. x^(4) - 3x^(2) + 2 = 0          =       y^(2) - 3y + 2 = 0
+
+         2. y^(2) - 3y + 2 = 0              =       Determinado os valores de y: 
+                                                    y = 1;              y = 2 
+
+
+                                                    Determinado os valores de x:
+                                                    x^(2) = 1             x^(2) = 2
+                                                    x = +/- √1            x = +/- √2
+                                                    x = +/- 1            
+
+        R. S = {(+/-) 1, (+/-) 2};
+
+
+
+       Resolução passo a passo da letra f:
+
+       DICA: Divisão de módulo
+       fórmula: |x| = { x, se x >= 0
+                       -x, se x < 0  }
+
+       Conclusão: |x| = a, a >= 0 -> x = +/- a
+                                            
+
+
+       Rf)
+         1. 3 | x - 4 | = 10                =       |x-4| = 10/3
+
+         2. |x-4| = 10/3                    =       x-4 = 10/3   || x-4 = -10/3
+
+         3. x-4 = 10/3   || x-4 = -10/3     =       x = (10/3) + 4   ==  x = 22/3          
+
+         4. x-4 = 10/3   || x-4 = -10/3     =       x = (-10/3) + 4  ==  x = 2/3
+
+         R. x = 22/3 || x = 2/3;
+
+
+
+       Resolução passo a passo da letra g:
+
+       DICA: Ao encontrar um expoente com expoente negativo para torná-lo positivo deve-se inverter a base e trocar o sinal do expoente.
+       fórmula: [ a^(-n) = 1/a^n  ]
+
+       DICA: Ao nos depararmos com uma potência que possui um expoente em fração isso significa que equivale a uma raíz cujo índice é o denominador da fração
+       fórmula: [ a^(p/q) = (q)^√a^(p) ]
+
+       Rg)
+         1. 2x(4 - x)^(-1/2) - 3√4 - x = 0              =       2x * ( 1 / (4-x)^(1/2)) - 3√4 - x = 0
+
+         2. 2x * ( 1 / (4-x)^(1/2)) - 3√4 - x = 0       =       (2x / √4-x) - 3√4-x = 0
+
+
+         3. Convencionando: √4-x == y   ->  4 - x  = y^2  ->  -x = y^(2) - 4  ->  x = 4 - y^2       (Agora substitua a nova convenção na expressão)
+
+         Retorne ao cálculo
+         4. (2x / √4-x) - 3√4-x = 0                     =       ( 2(4 - y^2) / y ) - 3y = 0
+
+         5. (2(4 - y^2) / y) - 3y = 0                   =       ( 2(4 - y^2) - 3y^(2) ) = 0         (pois foi tirado o mínimo)
+
+         6. ( 2(4 - y^2) - 3y^(2) ) = 0                 =       8 - 2y^(2) - 3y^(2) = 0             (pois multiplicamos o 2 por 4, por y^2)
+
+         7. 8 - 2y^(2) - 3y^(2) = 0                     =       8 - 5y^(2) = 0                      (pois isolamos o y^2)
+
+         8. 8 - 5y^(2) = 0                              =       5y^2 = 8  ->        y^2 = 8/5       ->      y = +/- √8/5
+
+         9. y = +/- √8/5                                =       √4-x = √8/5
+
+         10. √4-x = √8/5    -> Elevando ao quadrado obtemos:     4-x = 8/5   ->     20 - 5x = 8     ->      -5x = -12       ->      x = 12/5
+
+         R. x = 12/5;
+
+
+
+
+
+
+// ------------------------------------------------------------------
+9. Resolva cada desigualdade. Escreva sua resposta usando a notação de intervalos
+(a) -4 < 5 - 3x <= 17           (b) x^(2) < 2x + 8
+
+(c) x(x - 1)(x + 2) > 0         (d) |x- 4| < 3
+
+(d) ( 2x-3 / x+1 ) <= 1
+
+
+
+
+
+
+       Resolução passo a passo da letra a:
+
+
+       Ra)
+         1.
 
 
 
@@ -608,7 +784,6 @@ g)
 
        Rb)
          1.
-
 
 
 
@@ -631,7 +806,7 @@ g)
 
        Resolução passo a passo da letra d:
 
-       Rd)
+        Rd)
          1.
 
 
@@ -639,29 +814,7 @@ g)
 
 
 
-       Resolução passo a passo da letra e:
 
-       Re)
-         1.
-
-
-
-
-
-
-       Resolução passo a passo da letra f:
-
-       Rf)
-         1.
-
-
-
-
-
-       Resolução passo a passo da letra g:
-
-       Rg)
-         1.
 
  */
 
