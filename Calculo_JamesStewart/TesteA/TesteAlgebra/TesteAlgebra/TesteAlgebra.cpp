@@ -756,12 +756,13 @@ g) 2x(4 - x)^(-1/2) - 3√4 - x = 0
 
 
 // ------------------------------------------------------------------
+Inequação Simultânia
 9. Resolva cada desigualdade. Escreva sua resposta usando a notação de intervalos
 (a) -4 < 5 - 3x <= 17           (b) x^(2) < 2x + 8
 
 (c) x(x - 1)(x + 2) > 0         (d) |x- 4| < 3
 
-(d) ( 2x-3 / x+1 ) <= 1
+(e) ( 2x-3 / x+1 ) <= 1
 
 
 
@@ -771,9 +772,23 @@ g) 2x(4 - x)^(-1/2) - 3√4 - x = 0
        Resolução passo a passo da letra a:
 
 
-       Ra)
-         1.
+       DICA: Quando multiplicamos uma desigualdade por um número negativo devemos trocar o sinal
+       a < b =>{ ac < bc, se c > 0
+                 ac > bc, se c < 0 }
 
+
+       Ra)
+         1. -4 < 5 - 3x <= 17                           =           -5 - 4 < -5 + 5 - 3x <= -5 + 17
+
+         2. -5 - 4 < -5 + 5 - 3x <= -5 + 17             =          -9 < -3x <= 12
+
+         3. -9 < -3x <= 12                              =          -1/3 * (-9) > -1/3 * (-3x) >= -1/3 * 12                    (pois multiplicamos por -1/3)
+
+         4. -1/3 * (-9) > -1/3 * (-3x) >= -1/3 * 12     =           3 > x >= -4
+
+         5. 3 > x >= -4                                 =           escrevendo na notação de intervalo => [-4, 3[ 
+
+         R. [-4, 3[     ou      [-4, 3);
 
 
 
@@ -782,8 +797,16 @@ g) 2x(4 - x)^(-1/2) - 3√4 - x = 0
 
        Resolução passo a passo da letra b:
 
+       DICA: Para resolvermos uma inequação do 2Grau devemos considerar o primeiro membro como uma f(x) e em seguida fazemos o estudo do sinal da função
+       Como estudar o sinal da função ? 
+       1Providencia: calcular as raízes da função
+         
        Rb)
-         1.
+         1. x^(2) < 2x + 8                          =            x^(2) - 2x - 8 < 0
+
+         2. x^(2) - 2x - 8 < 0                      =           x1= -2    &&    x2= 4
+
+         R. ]-2, 4[ ou (-2,4);
 
 
 
@@ -792,10 +815,20 @@ g) 2x(4 - x)^(-1/2) - 3√4 - x = 0
 
 
 
-       Resolução passo a passo da letra c:
+
+
+       Resolução passo a passo da letra c: Inequação Produto
+
+       DICA: É considerado uma Inequação Produto quando no primeiro membro da inequação temos produto de funções e no segundo membro o zero
+       Primeiro você precisa estudar o sinal de cada função separadamente
+       Segundo você precisa fazer o quadro de sinais
+
 
        Rc)
-         1.
+         1. x(x - 1)(x + 2) > 0                     =               (-2,0) U (1, + infinito )       
+
+
+         R. (-2,0) U (1, + infinito );
 
 
 
@@ -804,10 +837,60 @@ g) 2x(4 - x)^(-1/2) - 3√4 - x = 0
 
 
 
-       Resolução passo a passo da letra d:
+
+
+       Resolução passo a passo da letra d: Inequação modular
+
+
+       DICA: Inequação modular
+       fórumula: |x| < a ={ a >= 0    <=>   -a < x < a }
 
         Rd)
-         1.
+         1. |x- 4| < 3              =           -3 < x-4 < 3       
+
+         2. -3 < x-4 < 3            =           4-3 < 4 + x-4 < 4+3
+
+         3. 4-3 < 4 + x-4 < 4+3     =           1 < x < 7
+
+         R. (1,7) ou ]1,7[;
+
+
+
+
+
+
+
+
+       Resolução passo a passo da letra e: Não é Inequação quociente
+
+       DICA: É uma Inequação quociente tal que no peimeiro membro temos uma fração (com o numerador composto por produto de funções e o denominador também) e no
+       segundo membro temos o zero. O que fazer ? Estudar o sinal de cada função separadamente; Fazer o quadro de sinais, dispondo os sinais de cada função
+
+
+
+
+        Re)
+          1. ( 2x-3 / x+1 ) <= 1            =           ( 2x-3 / x+1 ) -  1 <= 0         (pois estamos tornando em uma inequação quociente)
+
+          2. ( 2x-3 / x+1 ) -  1 <= 0       =           (2x-3 - x - 1 )/ (x+1)  <= 0  
+
+          3. (2x-3 - x - 1 )/ (x+1)  <= 0   =           (x-4)/(x+1) <= 0                (aqui já temos uma inequação quociente)
+
+          4. (x-4)/(x+1) <= 0               =           (-1, 4]                         (chegamos a essa resposta após o estudo e o equadro de sinais)
+
+          R. (-1, 4] ou ]-1,4];         (Detalhe: o -1 não pode fzer parte da solução pois o denominador é zerado se x = -1)
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------
+10. Diga se cada equação é verdadeira ou falsa.
 
 
 
