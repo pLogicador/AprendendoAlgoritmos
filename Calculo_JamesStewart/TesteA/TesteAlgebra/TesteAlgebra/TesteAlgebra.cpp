@@ -380,9 +380,222 @@ e) (3x^3/2) - (9x^1/2) + 6x^(-1/2)      f) (x^3)y - 4xy
 
 
 
-// ------------------------------------------------------------------
+// ------------------------------------------------------------------       CÁLCULO DE LIMITES
 S. Simplifique as expressões racionais.
-a) 
+a) ((x^2) + 3x + 2 ) / ((x^2) - x - 2)               b) ( ((2x^2) - x - 1 ) / ((x^2) - 9) ) * ( x + 3) / (2x + 1 )
+
+c) ( (x^2) / (x^2) - 4 ) - ((x + 1) / x + 2 )       d) (y/x - x/y) / (1/y - 1/x)
+
+
+      
+
+
+      Resolução passo a passo da letra a:
+
+      Dica1:
+      fórmula: [ (ax^2) + bx + c = 0   =    a(x - x1) (x - x2) = 0 ]
+
+      DICA2: utilize a fórmula de Baskhara:  [  x= ( -b(+/-) √(b^2) - 4ac ) / 2a  ] ou siga a dica 3(conforme os requisitos)
+
+      DICA3: Atalho para achar x1 e x2: Apenas se na equação do 2Grau o parâmetra a = 1;
+             Soma    = A soma tem que resultar no valor de b(com o sinal invertido)
+             Produto = O produto tem que resultar no valor exato de c
+
+
+      Ra)
+        1.  ((x^2) + 3x + 2 ) / ((x^2) - x - 2)             =  Parte superior ->           (x^2) + 3x + 2  = 0 
+                                                               Parte superior fatorada ->  1(x+1)(x+2)     = 0     
+
+        2.                                                   = Parte inferior ->           (x^2) - x - 2  = 0  
+                                                             = Parte inferior fatorada ->  (x - 2)(x + 1) = 0
+
+        3. (1(x+1)(x+2)) / ((x - 2)(x + 1))
+
+        4. (1(x+1)(x+2)) / ((x - 2)(x + 1))                 = (x + 2) / (x - 2)
+
+        R. (x + 2) / (x - 2);
+
+
+
+
+      Resolução passo a passo da letra b:
+
+      DICA:
+      fórmula de Baskhara: [  x= ( -b(+/-) √(b^2) - 4ac ) / 2a  ]
+
+      DICA: PRODUTO NOTÁVEL
+      fórumla: (a^2) - (b^2) = (a + b)(a - b)
+
+      Rb)
+        1. ( ((2x^2) - x - 1 ) / ((x^2) - 9) ) * ( x + 3) / (2x + 1 )           = Parte superior esquerdo ->         (2x^2) - x - 1 = 0
+                                                                                    
+        2.                                                                      = fatorando ->   x = ( 1 (+/-) √1 + 8 ) / 4                                                                                             
+                                                                                                 x = ( 1 (+/-) 3 ) / 4 
+                                                                                                 x1 = 4/4 = 1;
+                                                                                                 x2 = -2/4 = -1/2; 
+
+        3.                                                                      =  Parte superior esquerdo fatorado -> 2(x - 1)(x + 1/2) = 0             
+
+        4. ( ((2x^2) - x - 1 ) / ((x^2) - 9) ) * ( x + 3) / (2x + 1 )           = ( (2(x - 1)(x + 1/2)) / (x + 3)(x - 3) ) *  x+3 /2x+1
+
+        5. ( (2(x - 1)(x + 1/2)) / (x + 3)(x - 3) ) *  x+3 /2x+1                = (x - 1)(2x + 1) / (x - 3) (2x + 1)
+
+        6. (x - 1)(2x + 1) / (x - 3) (2x + 1)                                   = x - 1/x - 3 
+
+        R. x - 1/x - 3;
+
+
+
+
+        Resolução passo a passo da letra c:
+
+        Dica: Necessário tirar o mínimo e logo depois dividir pelo denominador e multiplica pelo numerador e logo depois a distributiva
+
+
+        Rc)
+          1. ( (x^2) / (x^2) - 4 ) - ((x + 1) / x + 2 )                 =          ((x^2) / (x + 2)(x - 2)) - x + 1/x + 2
+
+          2. ((x^2) / (x + 2)(x - 2)) - x + 1/x + 2                     =          (x^2) - (x - 2)(x + 1) / (x+2) * (x-2)
+
+
+          3. (x^2) - (x - 2)(x + 1) / (x+2) * (x-2)                     =          (x^2) - (x^2) - x + 2x + 2 / (x+2) * (x-2)
+
+
+          4. (x^2) - (x^2) - x + 2x + 2 / (x+2) * (x-2)                 =          x + 2 / (x+2) * (x-2)        =       1 / (x-2) 
+
+          R; 1 / (x-2);
+
+
+      Resolução passo a passo da letra d:
+
+      DICA: Em uma divisão de 2 frações repetimos a primeira fração e multiplicamos pelo inverso da segunda expressão
+
+      Rc)
+        1. (y/x - x/y) / (1/y - 1/x)                            =                       ( (y^2) - (x^2)/ xy ) /  ( x-y /xy ) 
+
+        2. ( (y^2) - (x^2)/ xy ) /  ( x-y /xy )                 =                   (y^2) - (x^2) / x-y     = ((y+x) * (y-x)) / x-y
+
+        3. (y^2) - (x^2) / x-y     = ((y+x) * (y-x)) / x-y      =                   -(y + x)
+
+        R. -(y + x);
+
+
+
+
+
+
+
+// ------------------------------------------------------------------       CÁLCULO DE LIMITES
+ 6. Racionalize a expressão e simplifique.
+ a) √10 / √5 - 2                    b) √4+h-2 / h
+
+
+
+
+       (racionalizando o denominador)
+       Resolução passo a passo da letra a:
+
+       DICA1: PRODUTO NOTÁVEL
+       fórmula: (a+b)(a-b) = (a^2) + (b^2)
+
+       DICA2: DISTRIBUTIVA (POR RAÍZ)
+
+       Ra)
+         1. √10 / √5 - 2                        =    ( √10 / √5-2 ) * (√5+2 / √5+2)
+
+         2. ( √10 / √5-2 ) * (√5+2 / √5+2)      =    (√50 + 2√10 ) / ( 5-4 )
+
+         3. (√50 + 2√10) / (5-4)                =    5√2 + 2√10
+
+         R. 5√2 + 2√10;
+
+
+
+       (racionalizando o numerador)
+       Resolução passo a passo da letra b:
+
+
+
+       Rb)
+         1. √4+h-2 / h                                          =          ( √4+h - 2 / h ) * ( √4+h + 2 / √4+h + 2  )   
+
+                                                                    (observe que agora temos um produto de uma soma por uma diferença). 
+                                                                    
+
+         2. ( √4+h - 2 / h ) * ( √4+h + 2 / √4+h + 2  )         =           4+h - 4 / h( √4+h + 2 ) 
+
+         2. 4+h - 4 / h( √4+h + 2 )                             =           h / h(√4+h + 2)     =  simplificando->  1 / √4+h + 2
+
+         R. 1 / √4+h + 2;
+
+
+
+
+
+
+// ------------------------------------------------------------------
+7. Reescreva, completando o quadrado.
+a) (x^2) + x + 1            b) (2x^2) - 12x + 11
+
+
+
+
+
+       Resolução passo a passo da letra a:
+
+       DICA: O QUADRADO DA SOMA
+       fórmula: [   (x+a)^2 = (x^2) + 2ax + (a^2)   ]
+
+       O valor de a é o número que está multiplicando o 'x'(o dobro de a)
+       Ao achar o valor divida por 2 para encontrar o dobro
+
+       Ra)
+         1. (x^2) + x + 1                   =           (x^2) + x + (1/4 - 1/4) + 1
+
+         2. (x^2) + x + (1/4 - 1/4) + 1     =           ((x + 1/2)^2) + 3/4
+
+         R. ((x + 1/2)^2) + 3/4;
+
+
+
+
+       Resolução passo a passo da letra b:
+
+
+       Rb)
+         1. (2x^2) - 12x + 11               =               2 ( (x^2) - 6x ) + 11 
+
+         2. 2 ( (x^2) -6x ) + 11            =               2 ((x^2) - 6x + 9 - 9) + 11 
+
+         3. 2 ((x^2) - 6x + 9 - 9) + 11     =               2[ (((x-3)^2 ) - 9) +  11 ]
+
+         4. 2[ (((x-3)^2 ) - 9) +  11 ]     =               (2(x-3)^2) -18 + 11       (pois foi feito a distributiva: 
+                                                                                    2 * (x-3)^2= (x-3)^2;
+                                                                                    2*(-9)= -18                   )
+
+        5. (2(x-3)^2) -18 + 11                =               (2(x-3)^2) - 7 
+
+        R. (2(x-3)^2) - 7;
+
+
+
+8. Resolva a equação. (Encontre apenas as soluções reais.)
+a)                      b)
+
+c)                      d)
+
+e)                      f)
+
+g)                      
+
+
+
+
+
+       Resolução passo a passo da letra a:
+
+       Ra)
+         1. 
 
 
 
@@ -391,6 +604,64 @@ a)
 
 
 
+       Resolução passo a passo da letra b:
+
+       Rb)
+         1.
+
+
+
+
+
+
+
+
+
+       Resolução passo a passo da letra c:
+
+       Rc)
+         1.
+
+
+
+
+
+
+
+
+       Resolução passo a passo da letra d:
+
+       Rd)
+         1.
+
+
+
+
+
+
+       Resolução passo a passo da letra e:
+
+       Re)
+         1.
+
+
+
+
+
+
+       Resolução passo a passo da letra f:
+
+       Rf)
+         1.
+
+
+
+
+
+       Resolução passo a passo da letra g:
+
+       Rg)
+         1.
 
  */
 
