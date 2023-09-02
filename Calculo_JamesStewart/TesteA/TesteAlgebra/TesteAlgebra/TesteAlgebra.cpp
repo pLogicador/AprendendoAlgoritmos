@@ -381,7 +381,7 @@ e) (3x^3/2) - (9x^1/2) + 6x^(-1/2)      f) (x^3)y - 4xy
 
 
 // ------------------------------------------------------------------       CÁLCULO DE LIMITES
-S. Simplifique as expressões racionais.
+5. Simplifique as expressões racionais.
 a) ((x^2) + 3x + 2 ) / ((x^2) - x - 2)               b) ( ((2x^2) - x - 1 ) / ((x^2) - 9) ) * ( x + 3) / (2x + 1 )
 
 c) ( (x^2) / (x^2) - 4 ) - ((x + 1) / x + 2 )       d) (y/x - x/y) / (1/y - 1/x)
