@@ -952,10 +952,13 @@ e) 1/x-y = 1/x - 1/y                            f) (1/x)/(a/x - b/x) = 1/a-b
 
  */
 
-
 #include <iostream>
+
+using namespace std;
+
+
 
 int main()
 {
-    std::cout << "Teste de álgebra! \n";
+    cout << "Teste de álgebra \n";
 }
