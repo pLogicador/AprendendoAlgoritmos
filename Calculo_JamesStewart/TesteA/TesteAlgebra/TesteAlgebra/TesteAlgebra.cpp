@@ -891,6 +891,45 @@ Inequação Simultânia
 
 // ------------------------------------------------------------------
 10. Diga se cada equação é verdadeira ou falsa.
+a) ( p + q )^(2) = p^(2) + q^(2)                b) √ab = √a √b
+
+c) √a^(2) + b^(2) = a + b                       d) (1+TC)/C = 1 + T
+
+e) 1/x-y = 1/x - 1/y                            f) (1/x)/(a/x - b/x) = 1/a-b
+
+
+
+
+        Resolução passo a passo da letra a:
+
+        Ra) Falso, pois o quadrado da soma não é a soma dos quadrados mas o quadrado do produto é o produto dos quadrados.
+        Ou seja, ( p + q )^(2) = p^(2) + 2pq + q^2
+
+
+
+
+
+        Resolução passo a passo da letra b:
+
+        Rb) Verdadeiro. A raíz do produto(positivo) é o produto das raízes mas a raíz da soma não é a soma das raízes
+
+
+
+
+
+
+       Resolução passo a passo da letra c:
+
+        Rc) Falso, pois seria possível apenas no caso de produto. Ou seja, √a^(2) * b^(2) = a * b 
+
+
+
+
+
+
+       Resolução passo a passo da letra d:
+
+        Rd) Falso. Seria possível apenas no caso de produto. 
 
 
 
@@ -898,6 +937,18 @@ Inequação Simultânia
 
 
 
+       Resolução passo a passo da letra e:
+
+        Re) Falso. 
+
+
+
+
+
+
+       Resolução passo a passo da letra f:
+
+        Rf) Verdadeiro. 
 
  */
 
