@@ -960,5 +960,5 @@ using namespace std;
 
 int main()
 {
-    cout << "Teste de álgebra \n";
+    cout << "Teste de algebra \n";
 }
